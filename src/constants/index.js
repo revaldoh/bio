@@ -1,12 +1,16 @@
+import {
 
-// 
+  pustekkom,
+  umn,
+  bosco
 
+} from '../assets';
 
 const experiences = [
     {
       title: "Bachelor of Information System",
       company_name: "Multimedia Nusantara University",
-      icon: 'test',
+      icon: umn,
       iconBg: "#E6DEDD",
       date: "August 2018 - June 2023",
       points: [
@@ -16,7 +20,56 @@ const experiences = [
         "Participated in mentoring activities, character building, and career preparation training.",
         "Attended various campus seminar events throughout the years.",
    ]
-  }];
+
+  },
+  {
+    title: "Visual Basic Programer Intern",
+    company_name: "Pustekkom Kemdikbud",
+    icon: pustekkom,
+    iconBg: "#E6DEDD",
+    date: "January 2017 - Maret 2017",
+    points: [
+      "Design desktop application for inputing exam questions",
+      "Design database inputing exam questions application.",
+ ],
+ 
+},
+{
+  title: "Web Developer Intern",
+  company_name: "MGM Bosco Logistic",
+  icon: bosco,
+  iconBg: "#E6DEDD",
+  date: "October 2017 - January 2018",
+  points: [
+    "Design desktop application for inputing exam questions",
+    "Design database inputing exam questions application.",
+],
+
+},
+{
+  title: "Web Developer Intern",
+  company_name: "MGM Bosco Logistic",
+  icon: bosco,
+  iconBg: "#E6DEDD",
+  date: "October 2017 - January 2018",
+  points: [
+    "Design desktop application for inputing exam questions",
+    "Design database inputing exam questions application.",
+],
+
+},
+{
+  title: "Web Developer Intern",
+  company_name: "MGM Bosco Logistic",
+  icon: bosco,
+  iconBg: "#E6DEDD",
+  date: "October 2017 - January 2018",
+  points: [
+    "Design desktop application for inputing exam questions",
+    "Design database inputing exam questions application.",
+],
+
+},];
 
 
    export {experiences}
