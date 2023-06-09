@@ -2,8 +2,9 @@ import {
 
   pustekkom,
   umn,
-  bosco
-
+  bosco,
+  lubira,
+  jala
 } from '../assets';
 
 const experiences = [
@@ -47,29 +48,45 @@ const experiences = [
 
 },
 {
-  title: "Web Developer Intern",
-  company_name: "MGM Bosco Logistic",
-  icon: bosco,
+  title: "Software Quality Assurance Intern",
+  company_name: "PT Lubira Technology Indonesia",
+  icon: lubira,
   iconBg: "#E6DEDD",
-  date: "October 2017 - January 2018",
+  date: "January 2022 - Maret 2022",
   points: [
-    "Design desktop application for inputing exam questions",
-    "Design database inputing exam questions application.",
+    "Self learning for creating scenario testing",
+    "Manual Testing Website Pasarabang.com.",
+    "Manual Testing Website Bookpro.com."
+],
+
+},
+{
+  title: "Full Stack Web Developer Intern",
+  company_name: "PT Jala Informatica",
+  icon: jala,
+  iconBg: "#E6DEDD",
+  date: "September 2022 - December 2022",
+  points: [
+    "Self learning about Coldfusion language",
+    "Develop Core - ERP modules(HRIS, Finance, Sales)",
+    "Create Massage App Mockups"
 ],
 
 },
 {
   title: "Web Developer Intern",
-  company_name: "MGM Bosco Logistic",
-  icon: bosco,
+  company_name: "PT Indoswiss International",
+  icon: jala,
   iconBg: "#E6DEDD",
-  date: "October 2017 - January 2018",
+  date: "Maret 2023 - Present",
   points: [
-    "Design desktop application for inputing exam questions",
-    "Design database inputing exam questions application.",
+    "Periodic updates of content for the website tuliprangkas.com",
+    "Fixed the bug  on the noorwalhayah.org website.",
+    "Create a blog website at article.lunarabeauty.com."
 ],
 
-},];
+}
+];
 
 
    export {experiences}
