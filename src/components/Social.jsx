@@ -41,7 +41,7 @@ function Social() {
         Resume <BsFillPersonLinesFill size={30} />
         </>
     ),
-    href:'/src/assets/resume/CV_RevaldoHamdallah.pdf',
+    href:'CV_RevaldoHamdallah.pdf',
     style:'rounded-br-md',
     download:true
 }
