@@ -6,11 +6,14 @@ import './index.css'
 import Social from './components/Social'
 import About from './components/About'
 
+import Experience from './components/Experience'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <Navbar/>
    <Home />
    <Social/>
    <About/>
+   <Experience/>
   </React.StrictMode>
 )
